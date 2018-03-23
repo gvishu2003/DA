@@ -1,0 +1,108 @@
+﻿@using DesignAccelerator.Models.ViewModel
+@model UserClientMappingViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .button {
+        background-color: #af2024;
+        color: #ffffff;
+    }
+</style>
+
+<div class="navbar-static-top">
+</div>
+<div>
+    <br />
+</div>
+
+<h2>User Client Mapping</h2>
+<hr />
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <section id="AuthUserForm">
+            @using (Html.BeginForm("Index", "UserClientMapping", FormMethod.Post, new { @class = "form-horizontal", role = "form", @id = "formId" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.lstUserData, "Users*", new { @class = "col-md-2 control-label", @style = "text-align:left" })
+                    <div class="col-md-10">
+                        <span class="form-inline" style="margin-left:-30px">
+                            @Html.DropDownListFor(m => m.UserID, new SelectList(Model.lstUserData, "UserID", "UserName"), "--Select User--", new { @class = "form-control", @required = "Required", @style = "width:200px", id = "ddlUserdata" })
+                            @Html.ValidationMessageFor(m => m.UserID, "", new { @class = "text-danger" })
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10" style="margin-left:150px">
+                        <input id="btnSave" type="submit" value="Submit" class="btn btn-default; button" />
+
+                    </div>
+                </div>
+            }
+        </section>
+    </div>
+</div>
+
+<div>
+    <a href="@Url.Action("Index", "Client")">Back</a>
+</div>
+
+<div id="partialDiv">
+    @Html.Partial("_UserClientMappingPartial")
+</div> 
+
+
+
+@section Scripts {
+    <script type="text/javascript">
+
+        var number = parseInt(@ViewBag.Numberofauthusers);
+        
+        if (number > 0)
+        {
+            $("#btnSave").show();
+        }
+        else
+        {
+            $("#btnSave").hide();
+        }
+        
+
+        $(document).ready(function () {
+
+           // $("select#ddlUserdata").change(function () {
+                $("#ddlUserdata").on("change", function() {
+                //var CurUserID = $('#ddlUserdata').val();
+
+                $.ajax({
+                    url: '/UserClientMapping/Userchanged?CurUserID=' + $('#ddlUserdata').val(),
+                    type: 'GET',
+                    async: false,                    
+                    data: "",
+                    dataType: 'json',
+                    contentType: 'application/json',
+                    success: function (result) {
+                        isSuccess = result;
+                    },
+                    error: function (result) {
+                        alert("Selected value has been deleted for row No : " + result.responseText);
+                        isSuccess = result;
+                    }
+                });
+            });
+        });
+        
+
+    </script>
+}
+

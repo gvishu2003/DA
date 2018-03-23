@@ -1,0 +1,45 @@
+﻿@using DesignAccelerator.Models.ViewModel
+@model UserClientMappingViewModel
+
+
+
+<div style="width:75%;">
+    @{
+
+        WebGrid grid = new WebGrid(Model.lstClientMappedDetails, canSort: true);
+        @grid.GetHtml(
+                                            htmlAttributes: new { id = "grdUsersToAuthorize" },
+                                            tableStyle: "table table-bordered table-hover",
+                                            fillEmptyRows: false,
+                                            headerStyle: "gvHeading",
+                                            alternatingRowStyle: "gvAlternateRow",
+                                            rowStyle: "gvRow",
+                                            footerStyle: "gvFooter",
+                                            mode: WebGridPagerModes.All,
+                                            firstText: "<< First",
+                                            previousText: "< Prev",
+                                            nextText: "Next >",
+                                            lastText: "Last >>",
+                                            columns: new[] {
+                                grid.Column(header: "S.No.", format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex, canSort:true),
+                                grid.Column("ClientName",header: "Client Name",canSort:true),
+                                
+                                grid.Column(header:"Status",canSort:false,
+                                 format:@<text>
+
+                                                                    @if(item.MappedStatus == 1) {
+                                                                        <input id="chkStatus" name="chkStatus" type="checkbox" value="@item.ClientID" checked="checked" />;
+                                              }
+                                              else {
+                                                                        <input id="chkStatus" name="chkStatus" type="checkbox" value="@item.ClientID" />;
+                                              }
+
+                                </text>
+                                                )
+                                          
+                                    }
+                                                )
+
+}
+</div>
+

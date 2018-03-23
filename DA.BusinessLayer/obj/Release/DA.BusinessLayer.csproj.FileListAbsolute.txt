@@ -9,3 +9,14 @@ D:\Projects\Design Accelerator\DA.BusinessLayer\bin\Release\EntityFramework.xml
 D:\Projects\Design Accelerator\DA.BusinessLayer\obj\Release\DA.BusinessLayer.csprojResolveAssemblyReference.cache
 D:\Projects\Design Accelerator\DA.BusinessLayer\obj\Release\DA.BusinessLayer.dll
 D:\Projects\Design Accelerator\DA.BusinessLayer\obj\Release\DA.BusinessLayer.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Release\DA.BusinessLayer.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Release\DA.BusinessLayer.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Release\DA.DataAccessLayer.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Release\DA.DomainModel.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Release\EntityFramework.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Release\DA.DataAccessLayer.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Release\DA.DomainModel.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Release\EntityFramework.xml
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\obj\Release\DA.BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\obj\Release\DA.BusinessLayer.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\obj\Release\DA.BusinessLayer.pdb

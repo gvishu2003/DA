@@ -20,3 +20,14 @@ D:\Vishwanath\DA\Design Accelerator\DA.BusinessLayer\bin\Debug\EntityFramework.x
 D:\Vishwanath\DA\Design Accelerator\DA.BusinessLayer\obj\Debug\DA.BusinessLayer.csprojResolveAssemblyReference.cache
 D:\Vishwanath\DA\Design Accelerator\DA.BusinessLayer\obj\Debug\DA.BusinessLayer.dll
 D:\Vishwanath\DA\Design Accelerator\DA.BusinessLayer\obj\Debug\DA.BusinessLayer.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Debug\DA.BusinessLayer.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Debug\DA.BusinessLayer.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Debug\DA.DataAccessLayer.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Debug\DA.DomainModel.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Debug\DA.DataAccessLayer.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Debug\DA.DomainModel.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\obj\Debug\DA.BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\obj\Debug\DA.BusinessLayer.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.BusinessLayer\obj\Debug\DA.BusinessLayer.pdb

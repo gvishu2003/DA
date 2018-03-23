@@ -22,3 +22,15 @@ D:\Vishwanath\DA\Design Accelerator\DA.DataAccessLayer\bin\Debug\EntityFramework
 D:\Vishwanath\DA\Design Accelerator\DA.DataAccessLayer\obj\Debug\DA.DataAccessLayer.csprojResolveAssemblyReference.cache
 D:\Vishwanath\DA\Design Accelerator\DA.DataAccessLayer\obj\Debug\DA.DataAccessLayer.dll
 D:\Vishwanath\DA\Design Accelerator\DA.DataAccessLayer\obj\Debug\DA.DataAccessLayer.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\bin\Debug\DA.DataAccessLayer.dll.config
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\bin\Debug\DA.DataAccessLayer.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\bin\Debug\DA.DataAccessLayer.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\bin\Debug\DA.DomainModel.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\bin\Debug\DA.DomainModel.pdb
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\obj\Debug\DA.DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\obj\Debug\DA.DataAccessLayer.dll
+D:\Vishwanath\DA\Design Accelerator\DA\DA.DataAccessLayer\obj\Debug\DA.DataAccessLayer.pdb
